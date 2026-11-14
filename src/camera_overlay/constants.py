@@ -1,0 +1,27 @@
+APP_DISPLAY_NAME = "Camera Overlay"
+APP_WM_CLASS = "CameraOverlay"
+APP_DESKTOP_ID = "camera-overlay"
+SETTINGS_APP_ID = "com.cameraoverlay.CameraOverlay"
+
+DEFAULT_SIZE = 280
+MIN_SIZE = 120
+MAX_SIZE = 720
+RESIZE_EDGE = 18
+ZOOM_MIN = 1.0
+ZOOM_MAX = 4.0
+ZOOM_STEP = 0.12
+BRIGHTNESS_MIN = 0.5
+BRIGHTNESS_MAX = 1.6
+WARMTH_MIN = -1.0
+WARMTH_MAX = 1.0
+CAMERA_DEVICE = "/dev/video0"
+FRAME_INTERVAL_MS = 16
+CLOSE_BUTTON_MIN = 30
+CLOSE_BUTTON_MARGIN = 14
+PREVIEW_SIZE = 280
+
+RESOLUTIONS = (
+    ("Low", 640, 480),
+    ("Medium", 960, 540),
+    ("High", 1280, 720),
+)

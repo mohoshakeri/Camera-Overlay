@@ -1,0 +1,17 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Camera Overlay
+Name[fa]=پوشش دوربین
+GenericName=Camera Overlay
+GenericName[fa]=پوشش دوربین
+Comment=Circular always-on-top camera overlay
+Comment[fa]=پوشش دایره‌ای دوربین روی همه پنجره‌ها
+Exec=@ROOT@/run.sh
+Icon=@ROOT@/assets/icon.png
+Terminal=false
+Categories=AudioVideo;Video;Utility;
+StartupNotify=true
+StartupWMClass=CameraOverlay
+Keywords=camera;webcam;overlay;
+Keywords[fa]=دوربین;پوشش;وبکم;
